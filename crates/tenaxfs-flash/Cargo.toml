@@ -1,0 +1,16 @@
+[package]
+name = "tenaxfs-flash"
+description = "Flash backends and simulators for TenaxFS"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+repository.workspace = true
+homepage.workspace = true
+
+[dependencies]
+tenaxfs-core = { path = "../tenaxfs-core" }
+
+[lints]
+workspace = true
+

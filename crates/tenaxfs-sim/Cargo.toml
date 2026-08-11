@@ -1,0 +1,17 @@
+[package]
+name = "tenaxfs-sim"
+description = "Host simulator harness for TenaxFS"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+repository.workspace = true
+homepage.workspace = true
+
+[dependencies]
+tenaxfs-core = { path = "../tenaxfs-core" }
+tenaxfs-flash = { path = "../tenaxfs-flash" }
+
+[lints]
+workspace = true
+

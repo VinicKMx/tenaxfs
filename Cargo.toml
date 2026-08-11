@@ -1,0 +1,26 @@
+[workspace]
+members = [
+    "crates/tenaxfs-core",
+    "crates/tenaxfs-flash",
+    "crates/tenaxfs-sim",
+    "crates/tenaxfs-cli",
+]
+resolver = "2"
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.80"
+license = "MIT"
+repository = "https://github.com/tenaxfs/tenaxfs"
+homepage = "https://github.com/tenaxfs/tenaxfs"
+readme = "README.md"
+
+[workspace.lints.rust]
+unsafe_code = "forbid"
+
+[workspace.lints.clippy]
+alloc_instead_of_core = "warn"
+std_instead_of_core = "warn"
+unwrap_used = "warn"
+

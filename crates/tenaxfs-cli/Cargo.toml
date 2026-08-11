@@ -1,0 +1,20 @@
+[package]
+name = "tenaxfs-cli"
+description = "Host command-line tooling for TenaxFS images"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+repository.workspace = true
+homepage.workspace = true
+
+[[bin]]
+name = "tenaxfs"
+path = "src/main.rs"
+
+[dependencies]
+tenaxfs-sim = { path = "../tenaxfs-sim" }
+
+[lints]
+workspace = true
+
