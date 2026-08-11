@@ -94,5 +94,3 @@ cargo run -p tenaxfs-cli -- simulate
 - [Performance](docs/performance.md)
 - [Porting](docs/porting.md)
 
-All repository documentation is written in English.
-
