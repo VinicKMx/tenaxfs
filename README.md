@@ -94,6 +94,14 @@ cargo run -p tenaxfs-cli -- simulate
 - [Performance](docs/performance.md)
 - [Porting](docs/porting.md)
 
+## Buy Me a Coffee
+
+If this project helped you, you can send a few sats over Lightning:
+
+`maquinalab@walletofsatoshi.com`
+
+<img src="assets/lightning-donation-qr.svg" alt="Lightning donation QR code" width="180">
+
 ## License
 
 Dual-licensed under [MIT](LICENSE-MIT) or [Apache-2.0](LICENSE-APACHE), at your
